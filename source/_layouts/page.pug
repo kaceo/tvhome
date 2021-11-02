@@ -1,0 +1,23 @@
+---
+layout: chrome-bootstrap
+# Page Layout
+---
+
+.row
+  .col-8
+    .card
+      .card-body
+        | !{content}
+
+  .col-4
+    | !{meta.description}
+    hr
+    each t in travel
+      div #{t.city}, #{t.country}
+    hr
+    script.
+      //console.log(site)
+      // console.log(this)
+
+    - var eee = "/about"
+    p Go to #{eee}

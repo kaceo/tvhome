@@ -1,0 +1,42 @@
+---
+layout: default
+---
+<div class="container">
+  {{ content }}
+
+  <div class="section">
+
+    <!--   Icon Section   -->
+    <div class="row">
+
+      {% for p in site.data.sites %}
+      <div class="col s12 m4">
+
+        <div class="icon-block">
+          <h2 class="center light-blue-text">
+            <i class="material-icons">flash_on</i></h2>
+          <h5 class="center">{{ p.title }}</h5>
+          <p class="light">{{ p.description }}</p>
+          <a href="{{ p.url | relative_url }}">{{ p.url }}</a>
+        </div>
+
+      </div>
+      {% endfor %}
+
+    </div>
+  </div>
+  <hr>
+  <div class="section">
+    <ul class="posts">
+      {% for post in site.posts %}
+      <li>
+        <span>{{ post.date | date_to_string }}</span>
+        &raquo;
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        {{ post.url | relative_url }}
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+
