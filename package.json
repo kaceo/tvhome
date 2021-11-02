@@ -1,8 +1,8 @@
 {
-  "name": "kaceo-personal-site",
+  "name": "kaceo-tvhome-site",
   "version": "1.0.0",
   "description": "Personal static site hosted on GH Pages",
-  "repository": "https://github.com/kaceo/kaceo.git",
+  "repository": "https://github.com/kaceo/tvhome.git",
   "author": "Kace at Telematique <kaceong@gmail.com>",
   "license": "MIT",
   "scripts": {
