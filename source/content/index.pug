@@ -1,0 +1,111 @@
+---
+layout: smarttv
+---
+
+#wapper
+  // #error
+
+  //
+    object#nettvObjectFactory(type="application/NetTV_objectFactory"
+    style="position: absolute; top: 0; left: 0; width: 0; height: 0;")
+
+  // TOPNAV BUTTONS
+
+  #header
+    #iconBox.clearFix
+
+      #header_1_1.header_icon_box.clearFix.mouseSelected
+        #exitBtn.header_icon.exitBtnA
+        #exitBtn_f.header_icon.exitBtn_fA
+
+      #header_1_2.header_icon_box.clearFix.mouseSelected.Active
+        #smartTv.header_icon.smartTv.smartTvA
+        #smartTv_f.header_icon.smartTv_f.smartTv_fA
+        #title(style="display: block;")
+
+  // BOOKMARK
+
+  #nav
+    #nav_1.nav_list
+
+  // IMAGE BUTTONS
+
+  #banner.clearFix(style="opacity: 0;")
+    a#SmartHome_1_300x250.banner_list.mouseSelected(
+      area="banner")
+      .shade.banner_shade
+    a.advImgBox(name="SmartHome_1_300x250")
+
+    a#SmartHome_2_300x250.banner_list.mouseSelected(
+      area="banner")
+      .shade.banner_shade
+    a.advImgBox(name="SmartHome_2_300x250")
+
+    a#SmartHome_3_300x250.banner_list.mouseSelected(
+      area="banner")
+      .shade.banner_shade
+    a.advImgBox(name="SmartHome_3_300x250")
+
+    a#SmartHome_4_300x250.banner_list.mouseSelected(
+      area="banner")
+      .shade.banner_shade
+    a.advImgBox(name="SmartHome_4_300x250")
+
+    a#SmartHome_5_300x250.banner_list.mouseSelected(
+      area="banner" style="display: block;")
+      .shade.banner_shade
+    a.advImgBox(name="SmartHome_5_300x250")
+
+  // DESTINATION BUTTONS
+
+  #App_box_screen(style="top: 1.77rem;")
+    #App_box
+
+      ul#line_1.line.clearFix
+        each i in tvdata.buttons.slice(0,5)
+          li.app_item_box
+            .app_item.mouseSelected(
+              id=i.did
+              appid=i.aid
+              filepath=i.url
+              imgurl=i.img
+              style=i.bkg
+              area="app"
+            )
+              .shade.app_shade
+
+      ul#line_2.line.clearFix
+        each i in tvdata.buttons.slice(5,10)
+          li.app_item_box
+            .app_item.mouseSelected(
+              id=i.did
+              appid=i.aid
+              filepath=i.url
+              imgurl=i.img
+              style=i.bkg
+              area="app"
+            )
+              .shade.app_shade
+
+      ul#line_3.line.clearFix
+        each i in tvdata.buttons.slice(10,15)
+          li.app_item_box
+            .app_item.mouseSelected(
+              id=i.did
+              appid=i.aid
+              filepath=i.url
+              imgurl=i.img
+              style=i.bkg
+              area="app"
+            )
+              .shade.app_shade
+
+  // FOOTER NAVIGATIONS
+
+  #arrow_up.arrow(style="display: none;")
+  #arrow_down.arrow(style="display: none;")
+  #bottom
+    .BottomLeft
+      .sq
+      p#help
+    p#timer 02:43 Wednesday,3 November
