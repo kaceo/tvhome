@@ -32,7 +32,7 @@ self.__precacheManifest = [
   },
   {
     "url": "about/index.html",
-    "revision": "28580c27913504dbecaf3f0275004fa9"
+    "revision": "d674c1c547d4f69a4a4d89434df617e0"
   },
   {
     "url": "admin/index.html",
@@ -49,6 +49,26 @@ self.__precacheManifest = [
   {
     "url": "admin/previews/post.js",
     "revision": "d40d8c9c0826a17c9290249fce3ec187"
+  },
+  {
+    "url": "assets/buttons/201728160928061510824486089.png",
+    "revision": "461e5ce6c2f0b04ffe92724f329268b8"
+  },
+  {
+    "url": "assets/buttons/201840050740491528184449095.png",
+    "revision": "479b01b4a7d9ff6354924c25b9789932"
+  },
+  {
+    "url": "assets/buttons/202056270756541582790214510.png",
+    "revision": "ebf8b6109007745d8778f9ceaab692ca"
+  },
+  {
+    "url": "assets/buttons/45164_320X180.png",
+    "revision": "5a8bfef3e1702efe8789b7f12840ba62"
+  },
+  {
+    "url": "assets/buttons/48434_320X180.png",
+    "revision": "4b8a9993e6d12c4b93f1cf3fb3e62783"
   },
   {
     "url": "assets/img/404-southpark.jpg",
@@ -123,54 +143,6 @@ self.__precacheManifest = [
     "revision": "a6ddf9207578cd0a38664ff34298d5d4"
   },
   {
-    "url": "blog/index.html",
-    "revision": "2741bca481c034b34fe1416eefef7da7"
-  },
-  {
-    "url": "catalog/index.html",
-    "revision": "29bbb9e48ff0262eea4e9c89616523f7"
-  },
-  {
-    "url": "cloud/ads/index.html",
-    "revision": "9f4ef343da77e22806156d7faeea8a4d"
-  },
-  {
-    "url": "cloud/domains/index.html",
-    "revision": "d4eb8354cff7aa32f4eb77f3ea4d4827"
-  },
-  {
-    "url": "cloud/gsites/index.html",
-    "revision": "1cd2a2bde1e53a8a2e9d94694b8d3ce0"
-  },
-  {
-    "url": "cloud/hosts/index.html",
-    "revision": "3650baccb1b7ee545225fc46be044f3d"
-  },
-  {
-    "url": "cloud/index.html",
-    "revision": "8456515117cf7c3f2d1a874f62ec6b2e"
-  },
-  {
-    "url": "cloud/repos/index.html",
-    "revision": "2253b07c8df56c538e283622b8843284"
-  },
-  {
-    "url": "cloud/socialnet/index.html",
-    "revision": "0f2246d250553c31a5e26daba53ad8a5"
-  },
-  {
-    "url": "cloud/stores/index.html",
-    "revision": "45feacd50340fc8827eecfeea14b881a"
-  },
-  {
-    "url": "cloud/tango/index.html",
-    "revision": "8b982e91c823c5ad9e077d3368016b67"
-  },
-  {
-    "url": "entry/test-markdown/index.html",
-    "revision": "6ac318fa9d291d1debeacbcbb3a88511"
-  },
-  {
     "url": "favicon/android-chrome-192x192.png",
     "revision": "a8c7ef75598efe171556b88d32921b78"
   },
@@ -196,19 +168,11 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "d674c1c547d4f69a4a4d89434df617e0"
+    "revision": "0042b4f1b4f08a09eabefa383c4eacdd"
   },
   {
-    "url": "links/index.html",
-    "revision": "d182e7d5e211bef8d21df2a9b26c0c8d"
-  },
-  {
-    "url": "skills/artshub/index.html",
-    "revision": "29bbb9e48ff0262eea4e9c89616523f7"
-  },
-  {
-    "url": "start/index.html",
-    "revision": "64d51579c45d4fa76cb79f18f1613ac4"
+    "url": "tv/index.html",
+    "revision": "21f1eff0b5a77e85b655c5c9e9c94ec0"
   },
   {
     "url": "tvde/index.html",
@@ -217,10 +181,6 @@ self.__precacheManifest = [
   {
     "url": "tvhome/index.html",
     "revision": "16451d34499ea17b391e65150400ded4"
-  },
-  {
-    "url": "work/index.html",
-    "revision": "9224555b6935dea4f2950851daa8df14"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
