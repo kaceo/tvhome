@@ -1,0 +1,11 @@
+#title:before{
+  content:'Web Smart TV';
+}
+
+#nav_1:before{
+  content:'Featured apps';
+}
+
+#help:before{
+    content:'Help'
+}
