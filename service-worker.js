@@ -31,36 +31,40 @@ self.__precacheManifest = [
     "revision": "57ca62c51dd133a2385f50bb78faf878"
   },
   {
-    "url": "about/index.html",
-    "revision": "d674c1c547d4f69a4a4d89434df617e0"
-  },
-  {
-    "url": "admin/index.html",
-    "revision": "e44aa57431b4b3d752fa7c4bd8dfe158"
-  },
-  {
-    "url": "admin/previews/index.js",
-    "revision": "201da5ab96da9f63846f623b8bcafb12"
-  },
-  {
-    "url": "admin/previews/page.js",
-    "revision": "8343f1efa48dda326e4504ec17e620b0"
-  },
-  {
-    "url": "admin/previews/post.js",
-    "revision": "d40d8c9c0826a17c9290249fce3ec187"
-  },
-  {
     "url": "assets/buttons/201728160928061510824486089.png",
     "revision": "461e5ce6c2f0b04ffe92724f329268b8"
+  },
+  {
+    "url": "assets/buttons/201736220836591513931819748.png",
+    "revision": "64fc6597287aa456172c67e2342dbcb0"
   },
   {
     "url": "assets/buttons/201840050740491528184449095.png",
     "revision": "479b01b4a7d9ff6354924c25b9789932"
   },
   {
+    "url": "assets/buttons/201918270818371551255517882.png",
+    "revision": "48455e56a3749a2540b9118f84b79a96"
+  },
+  {
+    "url": "assets/buttons/202009281009211595930961119.png",
+    "revision": "0635d50690705be4a9d1bfd6f757aa5b"
+  },
+  {
     "url": "assets/buttons/202056270756541582790214510.png",
     "revision": "ebf8b6109007745d8778f9ceaab692ca"
+  },
+  {
+    "url": "assets/buttons/202110170610321631859032144.png",
+    "revision": "93790871b80505470bfb577b9b28b620"
+  },
+  {
+    "url": "assets/buttons/23194_320X180.png",
+    "revision": "1831af40a99343e6a0fa51be1bfa58cc"
+  },
+  {
+    "url": "assets/buttons/31197_320X180.png",
+    "revision": "5f73f8c3be26426dfa9469ac39e86172"
   },
   {
     "url": "assets/buttons/45164_320X180.png",
@@ -168,7 +172,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "0042b4f1b4f08a09eabefa383c4eacdd"
+    "revision": "aef69525a71a5698b3e1b19a39423953"
   },
   {
     "url": "tv/index.html",
@@ -181,6 +185,90 @@ self.__precacheManifest = [
   {
     "url": "tvhome/index.html",
     "revision": "16451d34499ea17b391e65150400ded4"
+  },
+  {
+    "url": "zeasn/img/downArrowImg.png",
+    "revision": "d3225256b65121ecdd315eb579bad933"
+  },
+  {
+    "url": "zeasn/img/toGallery-choosed 2.png",
+    "revision": "5ec2145260078ddb5858f0b458077f6e"
+  },
+  {
+    "url": "zeasn/img/toGallery-choosed.png",
+    "revision": "abe9911c2caa578ad72d09954105dd72"
+  },
+  {
+    "url": "zeasn/img/toGallery-focused 2.png",
+    "revision": "1620311961470957355e832ac33f545c"
+  },
+  {
+    "url": "zeasn/img/toGallery-focused.png",
+    "revision": "9478f244ac2c39bde98539082a20e648"
+  },
+  {
+    "url": "zeasn/img/toHomePage-choosed.png",
+    "revision": "f3efbc21c5c1590078396ec9f4df4c49"
+  },
+  {
+    "url": "zeasn/img/toHomePage-doNothing 2.png",
+    "revision": "9e1e37634411eed366e1d7b62c80a923"
+  },
+  {
+    "url": "zeasn/img/toHomePage-doNothing.png",
+    "revision": "5a9074d09ba688f6127e6dd42fa4481a"
+  },
+  {
+    "url": "zeasn/img/toHomePage-focused 2.png",
+    "revision": "947bf71d29b97d1f28b562c46eb26dd7"
+  },
+  {
+    "url": "zeasn/img/toHomePage-focused.png",
+    "revision": "33aea6b8f54afb21d5057ede97af87e3"
+  },
+  {
+    "url": "zeasn/img/upArrowImg.png",
+    "revision": "42a6e11486de24cdd73760757d5d4770"
+  },
+  {
+    "url": "zeasn/js/combined.js",
+    "revision": "2dfbeb53dc43b4f3e82ee5199c82f4b4"
+  },
+  {
+    "url": "zeasn/js/EN.js",
+    "revision": "952ce25ec9dd6a78cce1709749a991d9"
+  },
+  {
+    "url": "zeasn/js/grid.js",
+    "revision": "af8f0e75a4d7d9c38e6fb377c96aefce"
+  },
+  {
+    "url": "zeasn/js/init.js",
+    "revision": "125b5507589bb84c6d75f5aa297c08d7"
+  },
+  {
+    "url": "zeasn/js/jquery-3.1.1.min.js",
+    "revision": "e071abda8fe61194711cfc2ab99fe104"
+  },
+  {
+    "url": "zeasn/js/stuffs.js",
+    "revision": "0bd35c9ca05575075436c67597d6204f"
+  },
+  {
+    "url": "zeasn/js/tool.js",
+    "revision": "5e5c7d5002a9aae398db89ebb993f882"
+  },
+  {
+    "url": "zeasn/linux_smarttv_home_web.css",
+    "revision": "7a02ef456f03b2b027caa6920a5dc04b"
+  },
+  {
+    "url": "zeasn/Roboto-Regular.ttf",
+    "revision": "ac3f799d5bbaf5196fab15ab8de8431c"
+  },
+  {
+    "url": "zeasn/smartTv_en.css",
+    "revision": "a6d76cfeb727f61bb58685f67ac77b11"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});

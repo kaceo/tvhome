@@ -1,0 +1,363 @@
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd,input{
+  margin:0;padding:0}
+body{font-size:0.12rem;overflow: hidden}
+img{border:none;}
+li{list-style:none}
+input,select,textarea{outline:none;border:none}
+textarea{resize:none;}
+a{text-decoration:none;}
+.clearFix:after{content:".";display:block;clear:both;height:0;overflow:hidden;visibility:hidden;}
+
+@font-face {
+  font-family: "abc";
+  src: url('Roboto-Regular.ttf');
+}
+*:focus{
+  outline: none;
+}
+
+#error{
+  position: absolute;
+  top:0.7rem;
+  left:0.5rem;
+  font:0.18rem/0.18rem "微软雅黑";
+  height:6rem;
+  width:6rem;
+  color:red;
+  z-index: 100;
+}
+body{
+  width:12.8rem;
+  height:7.2rem;
+  margin: 0;
+  padding:0;
+  background-color:#1e1f21;
+}
+.Active{
+  transform: scale(1.15);
+  z-index: 5;
+  cursor: pointer;
+}
+.Active #exitBtn{
+  display: none;
+}
+.Active #exitBtn_f{
+  display: block;
+}
+.Active #smartTv{
+  display: none;
+}
+.Active #smartTv_f{
+  display: block;
+}
+.Active #title{
+  color:rgb(118, 215, 214);
+}
+#wapper{
+  position: relative;
+  width:100%;
+  height:100%;
+  overflow: hidden;
+}
+#header{
+  height:1.04rem;
+  width:100%;
+}
+#iconBox{
+  width:6rem;
+  height:0.72rem;
+  padding-top:0.24rem;
+  margin-left:0.3rem;
+}
+.header_icon_box{
+  float: left;
+  width:0.54rem;
+  height:0.48rem;
+}
+.header_icon{
+  float: left;
+  width:0.54rem;
+  height:0.48rem;
+}
+#header_1_1{
+  margin-right:0.14rem;
+  transform: scale(1);
+}
+#header_1_2{
+  width:3.8rem;
+  transform: scale(1);
+}
+.exitBtn{
+  background: url("./img/toHomePage-doNothing.png") no-repeat;
+  background-size: contain;
+}
+.exitBtn_f{
+  display: none;
+  background: url("./img/toHomePage-focused.png") no-repeat;
+  background-size: contain;
+}
+.exitBtnA{
+  background: url("./img/toHomePage-doNothing 2.png") no-repeat;
+  background-size: contain;
+}
+.exitBtn_fA{
+  display: none;
+  background: url("./img/toHomePage-focused 2.png") no-repeat;
+  background-size: contain;
+}
+.smartTv{
+  background: url("./img/toGallery-choosed.png") no-repeat;
+  margin-right:0.18rem;
+  background-size: contain;
+}
+.smartTv_f{
+  display: none;
+  background: url("./img/toGallery-focused.png") no-repeat;
+  margin-right:0.18rem;
+  background-size: contain;
+}
+.smartTvA{
+  background: url("./img/toGallery-choosed 2.png") no-repeat;
+  margin-right:0.18rem;
+  background-size: contain;
+}
+.smartTv_fA{
+  display: none;
+  background: url("./img/toGallery-focused 2.png") no-repeat;
+  margin-right:0.18rem;
+  background-size: contain;
+}
+#title{
+  float: left;
+  height:0.48rem;
+  font:0.24rem/0.48rem abc;
+  color:#ffffff;
+}
+#nav{
+  height: 0.48rem;
+  width:100%;
+  background:#000;
+}
+.nav_list{
+  height:0.48rem;
+  width:8rem;
+  margin-left: 0.57rem;
+  font:0.18rem/0.48rem abc;
+  color:#ffffff;
+}
+
+#banner{
+  position: relative;
+  height:2.03rem;
+  width:12.28rem;
+  margin:0.56rem 0 0 0.37rem;
+}
+.banner_list{
+  position: relative;
+  float:left;
+  width:2.16rem;
+  height:1.8rem;
+  margin-right:0.29rem;
+}
+/* 由于广告sdk加载了一些东西定位在位置1，需要设置z-index来鼠标可以聚焦 */
+#banner .banner_list:first-child{
+  z-index: 1
+}
+#App_box_screen{
+  width:12.3rem;
+  height:4.88rem;
+  position: absolute;
+  top:4.21rem;
+  left:0.25rem;
+  overflow: hidden;
+}
+#App_box{
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+}
+.line{
+  width:100%;
+  height:1.22rem;
+}
+.app_item_box{
+  width:2.46rem;
+  height:1.22rem;
+  float: left;
+}
+.app_item{
+  position: relative;
+  margin: 0.09rem 0.32rem;
+  width:1.82rem;
+  height:1.02rem;
+  background-color: white;
+  background-position: 0% 0%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.arrow{
+  display:none;
+  width:0.42rem;
+  height:0.11rem;
+  position: absolute;
+  left:50%;
+  margin-left:-0.21rem;
+}
+#arrow_up{
+  top:1.6rem;
+  background: url("./img/upArrowImg.png") no-repeat;
+  background-size: cover;
+}
+#arrow_down{
+  top:6.7rem;
+  background: url("./img/downArrowImg.png") no-repeat;
+  z-index: 3;
+  background-size: cover;
+}
+#bottom{
+  position: absolute;
+  /*top: 6.48rem;!*636*!*/
+  bottom:0;
+  width:100%;
+  height:0.55rem;/*84 #1e1f21*/
+  background-color: #1e1f21;
+  z-index: 2;
+}
+#timer{
+  position: absolute;
+  height:0.14rem;
+  width:5rem;
+  bottom:0.2rem;
+  right:0.3rem;
+  font:0.14rem/0.14rem abc;
+  letter-spacing: 0.04rem;
+  font-weight: bold;
+  color: #a2a2a2;
+  text-align: right;
+}
+.banner_shade{
+  width:2.16rem;
+  height:1.8rem;
+  background: rgba(0,0,0,.5);
+}
+.app_shade{
+  width:1.82rem;
+  height:1.02rem;
+  background: rgba(0,0,0,.2);
+}
+.shade{
+  position: absolute;
+  z-index:1;
+}
+.Active .shade{
+  background: transparent;
+  opacity: 1;
+}
+
+.advImgBox{
+  position: absolute;
+  top:0;
+  left:0;
+  width:2.16rem;
+  height:1.8rem;
+}
+#bannerImgBox_1 img:first-child{
+  width:2.16rem;
+  height:1.8rem;
+}
+#bannerImgBox_2 img:first-child{
+  width:2.16rem;
+  height:1.8rem;
+}
+#bannerImgBox_3 img:first-child{
+  width:2.16rem;
+  height:1.8rem;
+}
+#bannerImgBox_4 img:first-child{
+  width:2.16rem;
+  height:1.8rem;
+}
+
+#bannerImgBox_5 img:first-child{
+  width:2.16rem;
+  height:1.8rem;
+}
+#bannerImgBox_1 img:nth-child(2){
+  display: none;
+}
+#bannerImgBox_2 img:nth-child(2){
+  display: none;
+}
+#bannerImgBox_3 img:nth-child(2){
+  display: none;
+}
+#bannerImgBox_4 img:nth-child(2){
+  display: none;
+}
+#bannerImgBox_5 img:nth-child(2){
+  display: none;
+}
+
+.BottomLeft{
+  position:absolute;
+  bottom: 0.23rem;
+  left:0.3rem;
+  height:0.14rem;
+  width:2.6rem;
+  z-index: 500;
+}
+.sq{
+  position: absolute;
+  left: 0;
+  top:50%;
+  margin-top:-0.02rem;
+  width:0.14rem;
+  height:0.04rem;
+  background-color: #0096ce;
+}
+#help{
+  position: absolute;
+  left:0.22rem;
+  height:0.14rem;
+  font-weight: bold;
+  color:#0096ce;
+  text-transform: capitalize;
+  font-size: 23px;
+  line-height: 23px;
+  letter-spacing: .23px;
+}
+#banner img{
+  width: 2.16rem;
+  height: 1.8rem;
+}
+.hide {
+    display: none !important;
+}
+@media screen and (max-width: 1280px) {
+  #help {
+    font-size: .14rem;
+    line-height: .14rem;
+    letter-spacing: 0.01rem;
+  }
+}
+#SmartHome_video{
+  width: 2.4rem;
+  margin-right: 0;
+  background: transparent;
+  position: absolute;
+  top: 0;
+  right: 0.09rem;
+}
+#SmartHome_video .banner_shade{
+  background: transparent;
+}
+/* #SmartHome_video.video_full{
+  left: 0;
+  top: 0;
+  z-index: 999;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+} */
